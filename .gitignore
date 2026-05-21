@@ -1,0 +1,13 @@
+logs/
+maps/cache/
+maps/uploads/
+senna-env/
+__pycache__/
+*.pyc
+models/*.zip
+.vscode/
+*.log
+models/vosk-en-small/
+*.env
+config/supabase.env
+tests/cam_test.jpg

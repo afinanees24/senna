@@ -1,0 +1,15 @@
+picamera2
+adafruit-circuitpython-bno08x
+vosk==0.3.45
+pyttsx3
+flask
+requests
+sounddevice
+pyserial
+pyaudio
+pynmea2
+zeroconf
+numpy
+scipy
+opencv-python-headless
+adafruit-circuitpython-bno08x-rvc
