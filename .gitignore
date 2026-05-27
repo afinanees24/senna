@@ -11,3 +11,4 @@ models/vosk-en-small/
 *.env
 config/supabase.env
 tests/cam_test.jpg
+maps/cache/home_test.senna
