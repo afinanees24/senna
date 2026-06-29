@@ -33,3 +33,13 @@ secrets/
 
 # Logs
 *.log
+
+# Repo-root duplicate models dir (use src/senna_audio/models instead)
+/models/
+
+# Camera test outputs
+tests/*.jpg
+tests/*.png
+
+# Uploaded venue scans (live in Supabase, not git)
+maps/uploads/
