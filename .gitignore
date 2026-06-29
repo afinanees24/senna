@@ -1,14 +1,35 @@
-logs/
-maps/cache/
-maps/uploads/
-senna-env/
+# Python
 __pycache__/
-*.pyc
-models/*.zip
+*.py[cod]
+*.so
+*.egg-info/
+.pytest_cache/
+
+# Virtual envs
+venv/
+.venv/
+env/
+
+# ML models (downloaded via scripts/setup_models.sh)
+src/senna_audio/models/piper/*.onnx
+src/senna_audio/models/piper/*.onnx.json
+src/senna_audio/models/vosk/vosk-model-*/
+
+# OS / IDE junk
+.DS_Store
+Thumbs.db
+*.swp
 .vscode/
-*.log
-models/vosk-en-small/
+.idea/
+
+# Local-only test outputs
+*.wav
+/tmp/
+/home/pi/wifi_reference.json
+
+# Local secrets (passwords, tokens)
 *.env
-config/supabase.env
-tests/cam_test.jpg
-maps/cache/home_test.senna
+secrets/
+
+# Logs
+*.log
